@@ -1,0 +1,10 @@
+on: [push]
+
+jobs:
+  hello_world_job:
+    runs-on: ubuntu-latest
+    name: A job to test
+    steps:
+      - uses: actions/checkout@v2
+      - id: foo
+        uses: yusufpapurcu/go-license-checker@latest

@@ -1,4 +1,5 @@
 on: [push]
+name: Go License Check
 
 jobs:
   hello_world_job:

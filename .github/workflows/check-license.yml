@@ -8,4 +8,6 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - id: foo
-        uses: yusufpapurcu/go-license-checker@v0.8
+        uses: yusufpapurcu/go-license-checker@cc75d9a4615cc2d8cbce25a4dc4136845c097cdb
+        with:
+          runVendor: 'false'
